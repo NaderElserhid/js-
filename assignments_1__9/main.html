@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <!-- <script>
+      // this one will not work because it is in the fist
+      document.getElementById("el").style.color = "red";
+    </script> -->
+    <button id="demo" class="text-red pt-3 pb-3 bg-white bg-[#erqere] mr-3">
+      CLick Here
+    </button>
+    <script>
+      // this one wil work because it will onload the page
+      window.onload = function () {
+        console.group();
+        document.getElementById("el").style.color = "red";
+        console.table(["elziro", "ahmet", "sameh", "nadir", "basil"]);
+        console.log(
+          "%celziro %cweb %cschool",
+          "color:red",
+          "color:green",
+          "color:white ;background-color: blue;  font-size: 30px;"
+        );
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <hr />
+    <h2 id="moon">elziro</h2>
+    <script>
+      // this one will not work because the consl will work line by line it had to be at fist
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      document.getElementById("moon").style.color = "blue";
+    </script>
+    <script src="./main.js"></script>
+  </body>
+</html>
