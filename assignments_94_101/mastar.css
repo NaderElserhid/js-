@@ -1,0 +1,49 @@
+.nadir{
+    width: 402px;
+    height: 20px;
+    display: flex;
+    background-color: beige;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#result{
+    width: 402px;
+    height: 20px;
+    display: flex;
+    background-color: beige;
+    margin-bottom: 20px;
+    padding: 20px;
+  font-size: medium;
+  display: flex;
+    justify-content: center;
+}
+form{
+  display: grid;
+  justify-content: center;
+  width: 400px;
+  margin:  40px auto;
+  gap: 10px;
+  position: relative;
+}
+.results{
+  top: 150px;
+  display: grid;
+  grid-template-columns: 50% 50% 50%;
+  gap: 10px;
+  justify-content: center;
+position: absolute;
+
+}
+.box{
+  background-color: #e62525;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+}
+input:last-of-type{
+background-color: #00BCD4;
+}
