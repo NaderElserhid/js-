@@ -1,0 +1,49 @@
+.div_lsit {
+  margin: 20px auto;
+  width: 481px;
+  height: 50px;
+  background-color: #ddd;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 50px;
+  margin-top: 70px;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+}
+.div_lsit ul li {
+  width: 66px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  opacity: 0.2;
+  transition: 0.3s;
+}
+ul li:first-child {
+  background-color: red;
+}
+ul li:nth-child(2) {
+  background-color: green;
+}
+ul li:nth-child(3) {
+  background-color: blue;
+}
+ul li:nth-child(4) {
+  background-color: black;
+}
+
+.main {
+  background-color: red;
+  width: 700px;
+  height: 123px;
+  margin: 20px auto;
+  border-radius: 47px;
+}
+.div_lsit .active {
+  opacity: 1;
+}
