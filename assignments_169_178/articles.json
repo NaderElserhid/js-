@@ -1,0 +1,32 @@
+[
+    {
+        "name": "nadir",
+        "id": 1672,
+        "nameOfTheSc": "hestory",
+        "age": 123
+    },
+    {
+        "name": "maher",
+        "id": 2018,
+        "nameOfTheSc": "horror",
+        "age": 50
+    },
+    {
+        "name": "moon",
+        "id": 1290,
+        "nameOfTheSc": "fantasia",
+        "age": 68
+    },
+    {
+        "name": "monaf",
+        "id": 1267,
+        "nameOfTheSc": "action",
+        "age": 18
+    },
+    {
+        "name": "hani",
+        "id": 3432,
+        "nameOfTheSc": "comedy",
+        "age": 21
+    }
+]
